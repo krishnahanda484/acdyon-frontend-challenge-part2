@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Acdyon Technologies"
+description = "A premium, responsive home page for Acdyon Technologies, an outcome-driven learning ecosystem for ambitious learners and future leaders working at the intersection of AI, technology, and career growth."
+version = "1.0.0"
+id = "artifacts/acdyon-homepage"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25092
+
+[services.development]
+run = "pnpm --filter @workspace/acdyon-homepage run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/acdyon-homepage", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/acdyon-homepage/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25092"
+BASE_PATH = "/"

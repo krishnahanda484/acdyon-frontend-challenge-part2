@@ -1,0 +1,1285 @@
+You are an experienced senior frontend engineer performing the FINAL POLISH AND SUBMISSION PREPARATION pass on an existing frontend challenge project.
+
+IMPORTANT:
+Do NOT rebuild the website from scratch.
+Do NOT replace the existing V3 visual direction.
+Do NOT introduce a completely different design system.
+
+The current V3 design is already intentionally designed and visually strong. Your job is to preserve its visual identity while improving clarity, product communication, interaction quality, responsiveness, accessibility, code quality, documentation, and submission readiness.
+
+This is a real hiring challenge for Acdyon Technologies. The final result must feel like work produced by a thoughtful frontend engineer, not an AI-generated template.
+
+==================================================
+1. CHALLENGE CONTEXT
+==================================================
+
+This project is for:
+
+Acdyon Technologies
+Frontend Challenge — "Build It Like You Mean It"
+Part 2 — The Premium Home Page
+
+The challenge asks for:
+
+- A working premium homepage
+- A strong hero with a clear value proposition
+- One strong primary CTA
+- At least one section that actually shows the product
+- One meaningful motion/micro-interaction
+- Responsive behavior at 390px mobile and 1440px desktop
+- No horizontal scrolling
+- Honest copy
+- No fabricated testimonials
+- No fake user counts
+- No fake company logos
+- No misleading claims
+- Strong UI craft, spacing, typography and visual hierarchy
+- A deployed URL
+- A GitHub repository
+- A 1-page DECISIONS.md
+
+The company explicitly says:
+
+"UI craft & taste"
+"Honesty"
+"Ownership"
+
+are important grading criteria.
+
+The evaluator should be able to look at the site and think:
+
+"This feels like a real product website that someone intentionally designed and shipped."
+
+==================================================
+2. CURRENT V3 DESIGN — PRESERVE THIS DIRECTION
+==================================================
+
+The current V3 design direction is:
+
+- Warm off-white / cream background
+- Deep teal as the primary dark color
+- Coral/orange accent
+- Lime/green accent
+- Strong modern sans-serif typography
+- Editorial/expressive italic typography as an accent
+- Large confident headlines
+- Generous whitespace
+- Thin borders
+- Restrained visual system
+- Premium editorial/product aesthetic
+- Product UI mockups
+- Strong full-width color transitions
+- Minimal navigation
+- Strong visual rhythm
+
+DO NOT replace this with:
+
+- Generic SaaS purple/blue gradients
+- Generic glassmorphism
+- Excessive rounded cards
+- Excessive shadows
+- Stock photos
+- AI-generated people
+- Random 3D illustrations
+- Excessive animations
+- Particle backgrounds
+- Neon cyberpunk styling
+- Generic Tailwind landing-page aesthetics
+
+The current V3 identity is one of the strongest parts of the project.
+
+Preserve it.
+
+==================================================
+3. BRAND / PRODUCT CONTEXT
+==================================================
+
+Company:
+
+Acdyon Technologies
+
+Product positioning:
+
+AcdyOn is presented as a next-generation learning ecosystem for ambitious learners and professionals who want to move beyond traditional education.
+
+The concept focuses on:
+
+- AI
+- Technology
+- Real-world practice
+- Practical projects
+- Practitioner-led guidance
+- Structured learning
+- Outcome-oriented capability building
+
+Target users include:
+
+- Students
+- Especially CSE / IT / technology learners
+- Early-career engineers
+- Working professionals
+- People who want practical AI and technology skills
+
+IMPORTANT:
+
+Do not invent:
+
+- Learner counts
+- Revenue
+- Placement percentages
+- Success rates
+- Testimonials
+- Partner companies
+- Customer logos
+- Awards
+- Ratings
+- Fake statistics
+- Fake claims
+
+If the interface needs sample data, clearly label it as:
+
+"Illustrative product preview"
+or
+"Concept workspace"
+or
+"Sample interface"
+
+Use realistic UI content without pretending the numbers are real company metrics.
+
+==================================================
+4. HERO — IMPROVE CLARITY WITHOUT LOSING THE V3 DESIGN
+==================================================
+
+Keep the current V3 hero visual composition.
+
+The current headline direction is:
+
+"Turn the next thing you need to know into something you can do."
+
+This is strong and should remain the primary headline unless a very small copy refinement is clearly necessary.
+
+However, the supporting copy must make the product category immediately understandable.
+
+The visitor should understand within a few seconds that AcdyOn is about practical AI and technology learning.
+
+Use concise, honest supporting copy along the lines of:
+
+"AcdyOn helps ambitious learners build practical AI and technology skills through real projects, practitioner guidance, and a clear path from learning to doing."
+
+You may refine the wording slightly for typography and rhythm, but preserve the meaning.
+
+Do NOT make the copy generic.
+
+The primary CTA should be:
+
+"Explore programs →"
+
+Use this as the strongest primary action.
+
+The CTA should actually work.
+
+If there is no real programs page, make it scroll to the appropriate section or product experience rather than linking to a fake page.
+
+The secondary action can remain:
+
+"See how the journey works →"
+
+It should scroll to the product/journey section.
+
+==================================================
+5. HERO VISUAL
+==================================================
+
+Keep the V3 right-side product/journey visual.
+
+It should communicate the product rather than merely decorate the hero.
+
+The visual currently contains concepts such as:
+
+- Learning journey
+- Learn with context
+- Leave with capability
+- Orient
+- Apply
+- Grow
+
+Keep this conceptual product language.
+
+Improve visual hierarchy if necessary.
+
+Make sure:
+
+- Text is readable
+- No elements overlap unexpectedly
+- It scales properly on mobile
+- Decorative circles/lines never cause horizontal overflow
+- The card remains visually balanced
+- Decorative elements remain secondary to the product message
+
+==================================================
+6. PRODUCT-SHOWING SECTION — THIS IS CRITICAL
+==================================================
+
+The challenge explicitly requires:
+
+"At least one section that shows the product, not just claims about it."
+
+The current V3 product section is one of the strongest parts of the design.
+
+KEEP IT.
+
+The section should communicate:
+
+A learning journey from:
+
+01 Orient
+02 Learn
+03 Apply
+04 Grow
+
+The product UI should feel like an actual learning workspace.
+
+It may contain illustrative content such as:
+
+- Journey progress
+- Current phase
+- Practitioner session
+- Practice brief
+- Field notes
+- Next session
+- Progress bar
+- Learning context
+- Recommended action
+
+IMPORTANT:
+
+This is concept UI.
+
+Clearly communicate that it is illustrative.
+
+For example, include a subtle label such as:
+
+"Illustrative product preview"
+
+or
+
+"Concept workspace"
+
+Do not make the user believe that the displayed 54%, 28 minutes, etc. are real AcdyOn platform metrics.
+
+==================================================
+7. ONE MEANINGFUL INTERACTION — REQUIRED
+==================================================
+
+Implement exactly ONE meaningful product interaction.
+
+Do NOT add many unrelated animations.
+
+The recommended interaction is the learning journey selector:
+
+01 Orient
+02 Learn
+03 Apply
+04 Grow
+
+When the user selects a phase:
+
+- The selected phase becomes visually active
+- The product preview changes its content/state
+- The transition is smooth and restrained
+- The interaction communicates how the product works
+
+For example:
+
+Orient:
+- Discover context
+- Understand the problem
+- Build the mental model
+
+Learn:
+- Practitioner-led learning
+- Current active phase
+
+Apply:
+- Practice brief
+- Real-world project/application
+
+Grow:
+- Feedback
+- Reflection
+- Next iteration
+
+Use a subtle transition such as:
+
+- opacity
+- transform
+- height
+- content crossfade
+
+Do not use excessive motion.
+
+The animation should exist because it helps explain the product.
+
+This is the ONE primary motion/micro-interaction.
+
+Avoid adding:
+
+- Multiple scroll animations
+- Cursor-following effects
+- Particle animations
+- Constant floating objects
+- Excessive parallax
+- Multiple bouncing elements
+- Auto-playing carousels
+
+==================================================
+8. WHY ACdyON SECTION
+==================================================
+
+Keep the strong V3 section:
+
+"The world changed.
+Keep changing with it."
+
+Keep the four principles:
+
+01 / Relevance
+02 / Practice
+03 / Perspective
+04 / Momentum
+
+Refine spacing and typography if necessary.
+
+Make sure this section communicates the philosophy of practical learning rather than sounding like generic corporate consulting copy.
+
+Do not over-explain.
+
+==================================================
+9. EXPERIENCE SECTION
+==================================================
+
+Keep:
+
+"A product surface for moving from curious to capable."
+
+This is a strong bridge between marketing and product.
+
+The section should clearly demonstrate that AcdyOn is not simply a library of educational content.
+
+The product experience should communicate:
+
+Learn → Apply → Practice → Progress
+
+Make the UI feel tangible.
+
+The product preview should look like a believable application interface.
+
+Avoid adding fake user names or fake testimonials.
+
+If a practitioner/avatar is necessary for the UI, use clearly illustrative/sample treatment rather than implying a real testimonial.
+
+==================================================
+10. CAPABILITIES SECTION
+==================================================
+
+Keep the "Not more to know. More to do." concept.
+
+The four capabilities should remain:
+
+01 Practical capability
+02 Strategic thinking
+03 AI and technology fluency
+04 Continuous growth
+
+Make these visually scannable.
+
+Do not turn this into a generic feature grid.
+
+The copy should remain focused on capabilities rather than exaggerated outcomes.
+
+==================================================
+11. LIME / POINT-OF-VIEW SECTION
+==================================================
+
+Keep the distinctive lime section.
+
+Current concept:
+
+"Your edge is a practice."
+
+This is visually memorable.
+
+Do not remove the section.
+
+However, review whether the supporting copy connects strongly enough to the product.
+
+If you improve the wording, make it connect to:
+
+- Practical capability
+- AI/technology
+- Continuous learning
+- Ability to make better decisions
+- Building demonstrable skills
+
+Do not introduce fake career outcomes.
+
+==================================================
+12. FINAL CTA / FOOTER
+==================================================
+
+The final CTA should be honest and useful.
+
+Do not create fake functionality.
+
+If an email form is currently present, decide whether it is actually functional.
+
+If there is no backend:
+
+DO NOT pretend it sends an email.
+
+Prefer either:
+
+A) Implement a simple client-side validation + clear success state without implying a real backend, OR
+
+B) Replace it with a genuine navigation CTA such as:
+
+"Explore programs →"
+
+The safer option under a 24-hour frontend challenge is a real navigation CTA.
+
+The final section should feel like a natural conclusion, not a generic SaaS newsletter signup.
+
+Keep the footer clean.
+
+Include:
+
+- AcdyOn branding
+- Relevant navigation
+- Candidate redesign/concept disclosure
+- Copyright if appropriate
+
+Use wording such as:
+
+"Candidate redesign concept"
+
+or
+
+"Candidate homepage concept for AcdyOn"
+
+This is important because we are redesigning an existing company/product.
+
+==================================================
+13. LOGO / BRANDING
+==================================================
+
+Use the real AcdyOn logo appropriately.
+
+Do not create a fake logo.
+
+Do not distort it.
+
+Do not alter its proportions.
+
+Keep enough whitespace around the logo.
+
+The page should clearly be a candidate redesign/concept rather than pretending to be an official replacement for the existing website.
+
+==================================================
+14. RESPONSIVENESS — VERY IMPORTANT
+==================================================
+
+The challenge explicitly requires:
+
+390px mobile
+1440px desktop
+
+Test both.
+
+The site must have:
+
+- No horizontal scrolling
+- No clipped headlines
+- No overflowing decorative graphics
+- No overlapping UI
+- No tiny unreadable text
+- No buttons outside viewport
+- No desktop navigation overflowing on mobile
+- No product mockup wider than the viewport
+- No broken grid layouts
+- No excessive whitespace caused by desktop-only positioning
+
+At approximately 390px:
+
+Navigation should collapse into a clean mobile menu or simplified navigation.
+
+Hero should become a single-column layout.
+
+The product visual should resize naturally.
+
+Typography should scale down intelligently.
+
+Cards should stack vertically.
+
+Buttons should be comfortably touch-friendly.
+
+At approximately 1440px:
+
+Maintain the editorial spaciousness.
+
+Do not simply stretch content across the entire screen.
+
+Use a sensible max-width content container.
+
+==================================================
+15. ACCESSIBILITY
+==================================================
+
+Review the entire project for accessibility.
+
+Use semantic HTML:
+
+<header>
+<nav>
+<main>
+<section>
+<footer>
+<button>
+<a>
+<form>
+
+Use meaningful aria-labels where necessary.
+
+All interactive elements must be keyboard accessible.
+
+Visible focus states must exist.
+
+Do not remove browser focus indicators unless replacing them with an equally visible custom focus state.
+
+Ensure adequate color contrast.
+
+Do not communicate important information through color alone.
+
+Images should have meaningful alt text where necessary.
+
+Decorative graphics should use appropriate accessibility treatment.
+
+Respect:
+
+prefers-reduced-motion
+
+If the user prefers reduced motion, reduce or disable the product transition animation.
+
+==================================================
+16. CODE STYLE — VERY IMPORTANT
+==================================================
+
+The hiring challenge explicitly allows AI tools but says:
+
+"What isn't allowed: submitting output you can't explain line-by-line."
+
+Therefore the code must look like code a thoughtful developer could personally defend.
+
+Write clean, human-looking code.
+
+Avoid:
+
+- Massive comments
+- Comments explaining obvious code
+- "AI-generated" boilerplate
+- Generic variable names
+- Excessive abstraction
+- Unnecessary design patterns
+- Giant monolithic components
+- Deeply nested ternaries
+- Repeated magic numbers
+- Dead code
+- Unused imports
+- Unused dependencies
+- TODO comments
+- Placeholder comments
+- "This component does X" comments everywhere
+- Generated-looking naming
+- Duplicate components
+- Copy-paste structures
+- Over-engineering
+
+Do NOT write:
+
+// This component renders the hero section
+
+unless the comment is genuinely useful.
+
+Use meaningful names such as:
+
+LearningJourney
+ProductPreview
+CapabilitiesSection
+FinalCta
+
+instead of:
+
+Component1
+SectionThing
+Data2
+CardItem
+temp
+foo
+bar
+
+Keep components reasonably sized.
+
+Prefer simple composition over excessive abstraction.
+
+Keep styling consistent.
+
+If using Tailwind:
+
+- Avoid enormous unreadable className strings where a component or semantic grouping would improve readability.
+- Keep repeated design tokens centralized where practical.
+- Use the existing design system rather than inventing new styles per section.
+
+If using CSS:
+
+- Use meaningful class names.
+- Group related styles.
+- Avoid excessive specificity.
+- Avoid !important unless genuinely necessary.
+
+==================================================
+17. FILE / PROJECT STRUCTURE
+==================================================
+
+First inspect the existing project.
+
+Do not destroy the current architecture unless there is a clear technical reason.
+
+Use a clean structure appropriate for the current stack.
+
+For example, if using React/Vite:
+
+src/
+  components/
+    Header.tsx
+    Hero.tsx
+    LearningJourney.tsx
+    ProductPreview.tsx
+    WhyAcdyon.tsx
+    Experience.tsx
+    Capabilities.tsx
+    PointOfView.tsx
+    FinalCta.tsx
+    Footer.tsx
+  data/
+    journey.ts
+  styles/
+    ...
+  App.tsx
+  main.tsx
+
+If using Next.js:
+
+app/
+  page.tsx
+  layout.tsx
+components/
+  Header.tsx
+  Hero.tsx
+  LearningJourney.tsx
+  ProductPreview.tsx
+  WhyAcdyon.tsx
+  Experience.tsx
+  Capabilities.tsx
+  PointOfView.tsx
+  FinalCta.tsx
+  Footer.tsx
+
+Use the actual project structure that best fits the existing codebase.
+
+Do not create unnecessary files simply to make the project look complex.
+
+==================================================
+18. DEPENDENCIES
+==================================================
+
+Review package.json.
+
+Remove dependencies that are not actually used.
+
+Do not install large libraries for tiny tasks.
+
+If an animation library is already used and appropriate, keep it.
+
+If the project uses Framer Motion or another motion library, use it only for the meaningful interaction described above.
+
+Do not introduce multiple animation libraries.
+
+Do not add a UI library merely for buttons/cards.
+
+Keep the dependency tree lean.
+
+==================================================
+19. DARK MODE
+==================================================
+
+IMPORTANT:
+
+Dark mode is NOT required by the challenge.
+
+The challenge says:
+
+"real dark-mode support if you attempt dark mode at all"
+
+Therefore:
+
+DO NOT add dark mode simply to check a box.
+
+If the current project already has a dark-mode implementation, verify it thoroughly.
+
+If dark mode is incomplete or visually poor:
+
+Remove the incomplete dark-mode UI rather than shipping a broken half-dark design.
+
+A polished light-only website is preferable to a broken dark mode.
+
+==================================================
+20. HONESTY / CONTENT AUDIT
+==================================================
+
+Perform a complete content audit.
+
+Search the project for:
+
+- fake numbers
+- fake user counts
+- testimonials
+- fake customer logos
+- fake company partnerships
+- fake awards
+- fake ratings
+- fake statistics
+- exaggerated claims
+- fake success percentages
+
+Remove anything that could be interpreted as a real company metric unless it is explicitly supplied by the challenge.
+
+Sample UI data is allowed only when clearly presented as illustrative.
+
+For product mockups, use labels such as:
+
+"Illustrative product preview"
+"Concept workspace"
+"Sample progress"
+
+where necessary.
+
+Do not fabricate a person saying:
+
+"This changed my career."
+
+Do not fabricate:
+
+"10,000+ learners"
+
+"94% placement rate"
+
+"500+ companies"
+
+etc.
+
+==================================================
+21. MOTION RESTRAINT
+==================================================
+
+The challenge specifically says:
+
+"not five of them."
+
+Therefore the final site should have ONE meaningful motion system.
+
+Use the learning journey interaction as the main motion.
+
+Other interactions may have extremely subtle hover/focus transitions because those are standard UI feedback, but do not add additional showcase animations.
+
+Keep transitions:
+
+- short
+- purposeful
+- smooth
+- accessible
+
+Respect prefers-reduced-motion.
+
+==================================================
+22. OPTIONAL EASTER EGG
+==================================================
+
+If there is already a simple Easter egg, keep it.
+
+If there is no Easter egg and adding one takes very little time, you may add one subtle Easter egg.
+
+Examples:
+
+- Konami code
+- subtle hidden interaction
+- secret hover state
+
+Do NOT sacrifice polish for the Easter egg.
+
+It is optional and worth zero grading points.
+
+==================================================
+23. NO REPLIT / BUILDER BRANDING IN FINAL WEBSITE
+==================================================
+
+The final website must not visibly show:
+
+- Made with Replit
+- Build for free
+- Made with Bolt
+- Builder badges
+- AI generator badges
+- Development preview overlays
+
+These are development/building-environment elements, not part of the final candidate submission.
+
+Check both the application itself and the deployed build.
+
+==================================================
+24. README.md
+==================================================
+
+Create or update:
+
+README.md
+
+It should be concise and professional.
+
+Include:
+
+# AcdyOn — Candidate Homepage Redesign
+
+## Overview
+
+One short paragraph explaining that this is a candidate redesign concept created for the AcdyOn Technologies frontend challenge.
+
+## Stack
+
+List the actual stack used.
+
+For example:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+Only list technologies that are actually used.
+
+## Features
+
+Mention:
+
+- Responsive premium homepage
+- Product journey interaction
+- Product preview UI
+- Responsive 390px / desktop layouts
+- Accessibility considerations
+- Honest illustrative product data
+
+## Local development
+
+Give exact commands.
+
+For example:
+
+npm install
+npm run dev
+
+Use the actual package manager and commands from the project.
+
+## Production build
+
+Give the actual build command.
+
+For example:
+
+npm run build
+
+## Preview
+
+Give the actual preview command if supported.
+
+## Deployment
+
+Briefly explain recommended deployment to Vercel or the appropriate platform for the actual stack.
+
+Do not claim deployment has been completed if it has not.
+
+==================================================
+25. DECISIONS.md — REQUIRED
+==================================================
+
+Create:
+
+DECISIONS.md
+
+Maximum approximately one page.
+
+It must answer exactly the three questions from the challenge.
+
+Because this is Part 2, interpret the first question as design/product approach rather than scraper ingestion.
+
+Use a natural first-person engineering voice.
+
+Structure:
+
+# Decisions
+
+## 1. Why this approach over the obvious alternative?
+
+Explain why this design was chosen instead of a more conventional generic SaaS/education landing page.
+
+Mention ideas such as:
+
+- product-first storytelling
+- showing the learning journey rather than only describing it
+- editorial visual identity
+- practical learning/capability positioning
+- restrained motion
+- avoiding generic AI landing-page aesthetics
+
+Do not write marketing fluff.
+
+## 2. Trade-off under time pressure
+
+Mention one real trade-off.
+
+For example:
+
+"I prioritized one polished interactive learning journey over building multiple interactive product surfaces."
+
+Then explain what would be improved with a full week.
+
+Do not claim work that was not actually performed.
+
+## 3. AI tools
+
+Be honest.
+
+Explain where AI tools were used during development.
+
+For example:
+
+- brainstorming copy
+- component scaffolding
+- debugging
+- responsive CSS suggestions
+- refactoring assistance
+
+Then explicitly state that the implementation was reviewed, tested and modified manually.
+
+Do not write:
+
+"AI built the project."
+
+The goal is to demonstrate ownership.
+
+IMPORTANT:
+
+The DECISIONS.md must reflect what was actually done.
+
+Do not fabricate engineering decisions that were not made.
+
+==================================================
+26. BUILD VALIDATION
+==================================================
+
+After making all changes:
+
+Run the actual project checks.
+
+At minimum:
+
+- Install dependencies
+- Run lint if configured
+- Run typecheck if configured
+- Run production build
+- Start/preview production build
+- Check browser console
+- Check for runtime errors
+- Check for broken links
+- Check all buttons
+- Check navigation
+- Check the learning journey interaction
+- Check keyboard navigation
+- Check mobile layout
+- Check desktop layout
+
+Fix all errors.
+
+There should be:
+
+- No TypeScript errors
+- No build errors
+- No unused imports
+- No obvious console errors
+- No broken asset paths
+- No missing images
+- No broken interactions
+
+==================================================
+27. RESPONSIVE QA
+==================================================
+
+Specifically test:
+
+390px width
+
+768px width
+
+1024px width
+
+1440px width
+
+Check:
+
+- Header
+- Hero
+- Product preview
+- Journey selector
+- Capability section
+- Lime section
+- Final CTA
+- Footer
+
+Look specifically for:
+
+- horizontal scrolling
+- clipped text
+- overflowing cards
+- broken grids
+- overlapping absolute-positioned elements
+- buttons too small for touch
+- typography becoming unreadable
+- excessive whitespace
+- product UI becoming unusable
+
+Fix problems rather than simply hiding overflow.
+
+Do NOT use:
+
+overflow-x: hidden
+
+as a lazy solution to a layout bug.
+
+==================================================
+28. PERFORMANCE
+==================================================
+
+Keep the website lightweight.
+
+Avoid unnecessary:
+
+- huge images
+- unused fonts
+- large JavaScript libraries
+- duplicate assets
+- unnecessary animation libraries
+
+Optimize images where practical.
+
+Use appropriate image formats.
+
+Do not load assets that are not needed.
+
+==================================================
+29. FINAL DESIGN QUALITY PASS
+==================================================
+
+Before finishing, inspect the entire page as a designer.
+
+Ask:
+
+Does the hero communicate the product in 3 seconds?
+
+Does the page have a clear visual hierarchy?
+
+Does each section have a purpose?
+
+Does the product preview actually show something?
+
+Does the page feel like one coherent product rather than several unrelated sections?
+
+Are typography sizes consistent?
+
+Are margins/paddings consistent?
+
+Are borders consistent?
+
+Are colors consistent?
+
+Are buttons consistent?
+
+Are hover/focus states consistent?
+
+Is there too much text?
+
+Is there too much animation?
+
+Does anything look like a generic AI template?
+
+Does anything look fabricated?
+
+Does anything look unfinished?
+
+Remove anything that feels unnecessary.
+
+==================================================
+30. FINAL SUBMISSION CHECKLIST
+==================================================
+
+Before preparing the ZIP, verify ALL of the following:
+
+[ ] Hero has clear value proposition
+[ ] Hero has one strong primary CTA
+[ ] Primary CTA works
+[ ] Secondary CTA works
+[ ] AI/technology learning is immediately understandable
+[ ] Product is visibly demonstrated
+[ ] Product preview is clearly illustrative/conceptual
+[ ] One meaningful interaction exists
+[ ] Interaction is useful rather than decorative
+[ ] Motion is restrained
+[ ] prefers-reduced-motion is respected
+[ ] 390px works
+[ ] 1440px works
+[ ] No horizontal scroll
+[ ] Mobile navigation works
+[ ] Keyboard navigation works
+[ ] Focus states exist
+[ ] Contrast is acceptable
+[ ] No fake testimonials
+[ ] No fake user counts
+[ ] No fake company logos
+[ ] No fake statistics
+[ ] No misleading claims
+[ ] Real AcdyOn logo used appropriately
+[ ] Candidate/concept disclosure exists
+[ ] No Replit/Bolt/building-platform branding appears in the final site
+[ ] No console errors
+[ ] No TypeScript errors
+[ ] No build errors
+[ ] No unnecessary dependencies
+[ ] README.md exists
+[ ] DECISIONS.md exists
+[ ] DECISIONS.md is approximately one page
+[ ] Code is readable and human-looking
+[ ] No TODO leftovers
+[ ] No giant unnecessary comments
+[ ] No dead code
+[ ] No unused imports
+[ ] Production build succeeds
+
+==================================================
+31. ZIP PREPARATION — VERY IMPORTANT
+==================================================
+
+After the project is fully finished and verified, prepare a clean submission ZIP.
+
+The ZIP should contain the source project needed to install and run the project.
+
+EXCLUDE:
+
+node_modules/
+.next/
+dist/
+build/
+.cache/
+.git/
+temporary files
+editor files
+logs
+Replit-specific temporary files if they are not needed
+large generated artifacts
+
+DO NOT include node_modules.
+
+DO NOT include unnecessary build output.
+
+The ZIP should contain:
+
+- package.json
+- package-lock.json / pnpm-lock.yaml / yarn.lock as appropriate
+- source files
+- public/assets
+- configuration files
+- README.md
+- DECISIONS.md
+- all required project files
+
+The project should be reproducible by installing dependencies from the lockfile.
+
+Before creating the ZIP, make sure the project still works from a clean installation.
+
+Name the final archive something professional such as:
+
+acdyon-frontend-challenge-part2.zip
+
+==================================================
+32. FINAL RESPONSE FROM YOU
+==================================================
+
+After everything is completed, report:
+
+1. What was changed
+2. Final project structure
+3. Technologies actually used
+4. Validation/build result
+5. Exact local commands
+6. Recommended Vercel deployment steps
+7. Exact ZIP filename/path
+
+Most importantly:
+
+DO NOT claim something was tested if you did not actually test it.
+
+DO NOT claim deployment was completed unless it was actually completed.
+
+DO NOT claim a feature works unless you verified it.
+
+==================================================
+FINAL INSTRUCTION
+==================================================
+
+Treat this as the FINAL production-readiness pass for a real frontend hiring challenge.
+
+Do not add unnecessary features.
+
+Do not redesign the entire website.
+
+Do not chase novelty.
+
+Preserve V3's strongest visual identity.
+
+Improve:
+
+1. clarity
+2. product communication
+3. interaction
+4. responsive behavior
+5. accessibility
+6. honesty
+7. code quality
+8. documentation
+9. submission readiness
+
+The final result should feel like:
+
+"An experienced frontend engineer intentionally designed and shipped this."
+
+Not:
+
+"An AI generated a landing page."
+
+After all validation passes, create the clean submission ZIP.
